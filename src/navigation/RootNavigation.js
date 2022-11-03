@@ -66,6 +66,7 @@ const Drawer = createDrawerNavigator()
 // }
 
 export const RootNavigation = () => {
+  var a = 10
   return (
     <NavigationContainer>
       <Stack.Navigator
