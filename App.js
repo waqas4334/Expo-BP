@@ -12,7 +12,7 @@ const App = () => {
     <>
       {/* <Provider store={store}> */}
       <NativeBaseProvider>
-        <StatusBar backgroundColor={colors.orange} barStyle="dark-content" />
+        <StatusBar backgroundColor={colors.black} barStyle="light-content" />
         <RootNavigation />
         {/* <screens.Login /> */}
       </NativeBaseProvider>
