@@ -1,8 +1,16 @@
-export { default as Login } from "./Login/Login"
-export { default as Booking } from "./Booking/Booking"
-export { default as ChooseAccount } from "./ChooseAccount/ChooseAccount"
-export { default as ForgotPassword } from "./ForgotPassword/ForgotPassword"
-export { default as Home } from "./Home/Home"
-export { default as Profile } from "./Profile/Profile"
-export { default as Register } from "./Register/Register"
-export { default as SetPassword } from "./SetPassword/SetPassword"
+//Auth Stack
+import { Login } from "./Login/Login"
+import { Register } from "./Register/Register"
+import { SetPassword } from "./SetPassword/SetPassword"
+import { ForgotPassword } from "./ForgotPassword/ForgotPassword"
+import { Home } from "./Home/Home"
+import { Profile } from "./Profile/Profile"
+
+export default {
+  Login,
+  Register,
+  SetPassword,
+  ForgotPassword,
+  Home,
+  Profile,
+}
